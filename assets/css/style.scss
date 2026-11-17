@@ -1,0 +1,45 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  background-color: #111317;
+  color: #e4e6eb;
+}
+
+h1, h2, h3, strong {
+  color: #ffffff;
+}
+
+header h1 a {
+  color: #ffffff;
+}
+
+header p {
+  color: #a0a6b1;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+header p strong {
+  color: #64b5f6;
+  letter-spacing: 0.5px;
+}
+
+a {
+  color: #64b5f6;
+}
+
+a:hover {
+  color: #90caf9;
+}
+
+hr {
+  border-color: #2c313a;
+}
+
+blockquote {
+  border-left: 3px solid #64b5f6;
+  color: #b0b3b8;
+}
